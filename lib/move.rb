@@ -19,10 +19,13 @@ end
 def update_array_at_with(board, index, value)
   index = index.to_i
   board[index] = value
+<<<<<<< HEAD
   
   puts " "
   print "Index: "
   puts index
+=======
+>>>>>>> 89edbb90be47212e4377fb555b8800bdf5519f9b
   print "BOARD Value: "  
   puts  board[index]
 
